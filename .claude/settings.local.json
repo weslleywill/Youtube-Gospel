@@ -160,6 +160,10 @@
           {
             "type": "command",
             "command": "echo '' && echo '📅 '$(date '+%A %d/%m/%Y') && echo '' && echo '📋 TASKS PENDENTES (TASKS.md):' && if [ -f TASKS.md ]; then grep -E '^- \\[ \\]' TASKS.md | head -8 | sed 's/^/   /'; else echo '   (sem TASKS.md)'; fi && echo '' && echo '🚦 PRÓXIMO GATE:' && if [ -f TASKS.md ]; then grep -E '\\*\\*Dia [0-9]+' TASKS.md | head -1 | sed 's/^/   /'; fi && echo '' && echo '💡 Pra atualizar métricas do dashboard, digite: atualiza dashboard' && echo '═══════════════════════════════════════════════════════════════'"
+          },
+          {
+            "type": "command",
+            "command": "if [ -f .planning/STATE.md ]; then echo '' && echo '🧠 GSD — Cérebro central (.planning/STATE.md):' && grep -E '^## (🎯 Workstream|📍 Fase)' .planning/STATE.md | sed 's/^## //' | sed 's/^/   /' && echo '' && echo '🔥 Próxima ação GSD:' && grep -A 6 '^## 🔥 Próxima' .planning/STATE.md | grep -E '^[0-9]+\\.' | head -1 | sed 's/^/   /' && echo '' && echo '💡 /gsd-progress pra status · /gsd-next pra ação · /gsd-audit-milestone pra gate' && echo '═══════════════════════════════════════════════════════════════'; fi"
           }
         ]
       }

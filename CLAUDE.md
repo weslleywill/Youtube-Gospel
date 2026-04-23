@@ -2,6 +2,30 @@
 
 > **Objetivo**: Adaptar conteúdo pra cada plataforma (IG, YouTube, TikTok), criar anúncios (Meta Ads, TikTok Ads, Google Ads) e monetizar via ebook + funil orgânico.
 
+## 🧠 GSD CÉREBRO CENTRAL — ativo desde 2026-04-23
+
+> **REGRA CRÍTICA**: antes de responder tarefa de planejamento, roadmap, "onde estou", ou "próxima ação" → **LER `.planning/STATE.md`** primeiro.
+
+Estrutura `.planning/`:
+- [.planning/PROJECT.md](.planning/PROJECT.md) — visão master (fonte única da verdade)
+- [.planning/STATE.md](.planning/STATE.md) — onde estou HOJE
+- [.planning/ROADMAP.md](.planning/ROADMAP.md) — fases + gates
+- [.planning/REQUIREMENTS.md](.planning/REQUIREMENTS.md) — catálogo de deliverables
+- [.planning/workstreams/gospel/](.planning/workstreams/gospel/) — ATIVO (fase 00-fundacao)
+- [.planning/workstreams/fitness/](.planning/workstreams/fitness/) — HIBERNANDO
+
+**Comandos úteis** (skills GSD instaladas globais):
+- `/gsd-progress` — fase atual + próxima ação + dias pro gate
+- `/gsd-next` — próxima ação concreta
+- `/gsd-audit-milestone <fase>` — validar gate antes de avançar
+- `/gsd-plant-seed` — capturar ideia futura em `.planning/seeds/`
+
+**Integração com sistemas existentes**:
+- `WHEN-TO-USE-WHAT.md` continua router de tasks (complementa GSD)
+- `pipelines/*` continuam executores (GSD ROADMAP aponta qual pipeline rodar em cada fase)
+- `TASKS.md` continua fila do dia (espelha phase PLAN.md atual)
+- `_obsidian-setup/dashboard-gospel-opcao-e.md` espelha STATE.md
+
 ## Fase do fluxo
 **Fase 5 de 5** — Última fase. Conteúdo já foi criado nas fases anteriores; aqui adapta e prepara pra publicar/pagar.
 

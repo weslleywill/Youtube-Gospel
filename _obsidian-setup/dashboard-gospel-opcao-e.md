@@ -6,6 +6,29 @@
 
 ---
 
+## 🧠 GSD — VISÃO RÁPIDA (espelha [STATE.md](../.planning/STATE.md))
+
+> [!tip] Onde estou HOJE (atualizado 2026-04-23)
+> **Workstream ativo**: GOSPEL  
+> **Fase atual**: 00-fundacao (dias 1-7 — começou 22/04)  
+> **Próximo gate**: 28/04 (em 5 dias) → 3 longforms + ebook live + 0 strikes  
+> **Próxima ação**: Subir Longform 30min Ansiedade (22h hoje)
+
+📚 **Arquivos GSD master**:
+- [PROJECT.md](../.planning/PROJECT.md) — visão macro
+- [STATE.md](../.planning/STATE.md) — onde estou HOJE  
+- [ROADMAP.md](../.planning/ROADMAP.md) — fases + gates
+- [REQUIREMENTS.md](../.planning/REQUIREMENTS.md) — catálogo deliverables
+- [Phase 00 PLAN](../.planning/workstreams/gospel/phases/00-fundacao/PLAN.md) — plano atual
+- [Phase 00 VERIFICATION](../.planning/workstreams/gospel/phases/00-fundacao/VERIFICATION.md) — gate de saída
+
+**Comandos úteis** (no Claude Code):
+- `/gsd-progress` — status completo
+- `/gsd-next` — próxima ação
+- `/gsd-audit-milestone 00-fundacao` — validar gate (rodar 28/04)
+
+---
+
 ## ⚡ AÇÃO RÁPIDA — HOJE
 
 > [!important] HOJE (Qua 22/04/2026)
