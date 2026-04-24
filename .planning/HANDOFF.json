@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-04-24T00:00:00Z",
+  "phase": "00-fundacao",
+  "phase_name": "Fundação Canal Gospel Pra Descansar",
+  "phase_dir": ".planning/workstreams/gospel/phases/00-fundacao",
+  "plan": 1,
+  "task": 4,
+  "total_tasks": 7,
+  "status": "paused",
+  "workstream": "gospel",
+  "completed_tasks": [
+    {"id": 1, "name": "Canal criado + branding + Opção E aprovada", "status": "done"},
+    {"id": 2, "name": "14 arquivos operacionais pgsa/ + dashboard Obsidian + OAuth YouTube-Studio MCP", "status": "done"},
+    {"id": 3, "name": "GSP-VIDEO-01 Ansiedade 30min montado (voz+trilha+vídeo)", "status": "done"},
+    {"id": 4, "name": "GSP-VIDEO-04 Coração Cansado 30min produzido autônomo (voz/trilha/master/vídeo/UPLOAD-READY)", "status": "done"},
+    {"id": 4.5, "name": "Infra: 13 skills + 8 memories + 3 threads + voice-enhancer pipeline + DeepFilterNet3 + hooks rename + auto-update dashboard", "status": "done"}
+  ],
+  "remaining_tasks": [
+    {"id": 5, "name": "Upload manual GSP-VIDEO-04 → YouTube 22h sexta 24/04", "status": "in_progress", "assignee": "weslley"},
+    {"id": 6, "name": "Short #1 versículo do dia (sex 19h)", "status": "not_started"},
+    {"id": 7, "name": "Setup OBS + Restream + LIVE 12h (sex 21h)", "status": "not_started"},
+    {"id": 8, "name": "Batch gravar 3-4 orações semana seguinte (~2h)", "status": "not_started"},
+    {"id": 9, "name": "Longform 1h pilar Provisão Salmo 23 (dom 22h)", "status": "not_started"},
+    {"id": 10, "name": "Longform 8h OBRIG Provisão (seg 06h)", "status": "not_started"},
+    {"id": 11, "name": "Gate check fase 00 (seg 28/04)", "status": "not_started"}
+  ],
+  "blockers": [],
+  "human_actions_pending": [
+    {
+      "action": "Upload manual do vídeo Coração Cansado 30min no YouTube Studio",
+      "context": "Arquivo pronto em finais/. UPLOAD-READY.md tem todos os campos. Agendar 22h. Marcar Altered content: No. Adicionar Cards + End Screen após upload.",
+      "blocking": false
+    },
+    {
+      "action": "Criar produto Hotmart 30 Orações Pra Dormir em Paz R$19,90 + link UTM",
+      "context": "Link vai na descrição do vídeo. UTM sugerido no UPLOAD-READY.md. Sem isso, CTA fica vazio.",
+      "blocking": false
+    }
+  ],
+  "decisions": [
+    {"decision": "Imagem Modelo 2 = Nano Banana Pro (não ChatGPT)", "rationale": "Modelo 2 NUNCA pode ser mesmo engine do Modelo 1 — redundância", "phase": "00-fundacao"},
+    {"decision": "Vídeo Modelo 1 = Kling 3.0 EXCLUSIVE", "rationale": "Motion Control requer vídeo de input, não serve pra image-to-video", "phase": "00-fundacao"},
+    {"decision": "Vídeo Modelo 2 econômico = Minimax Hailuo", "rationale": "Oficialmente 'fastest and most affordable' no Higgsfield", "phase": "00-fundacao"},
+    {"decision": "Denoise = DeepFilterNet3 local (não ElevenLabs API)", "rationale": "PESQ 3.5-4.0+ ≈ Adobe Podcast, zero custo, offline", "phase": "00-fundacao"},
+    {"decision": "Categoria YouTube = Música (não People & Blogs)", "rationale": "YouTube Music indexa + descoberta cross-canal gospel mais forte", "phase": "00-fundacao"},
+    {"decision": "Zero menção a Suno/AI na descrição pública", "rationale": "Algoritmo YouTube usa texto pra classificar AI-generated e reduz monetização", "phase": "00-fundacao"},
+    {"decision": "Loop Kling requer PALETTE LOCK + LOOP LOCK + câmera STATIC", "rationale": "Termos de progressão ('revealing brightness') causam drift de paleta que quebra loop", "phase": "00-fundacao"}
+  ],
+  "uncommitted_files": [
+    ".claude/settings.local.json",
+    ".planning/STATE.md",
+    ".planning/workstreams/gospel/STATE.md",
+    ".planning/workstreams/gospel/phases/00-fundacao/PLAN.md",
+    "CLAUDE.md",
+    "_obsidian-setup/dashboard-gospel-opcao-e.md",
+    ".claude/commands/ (2 novos)",
+    ".claude/hooks/ (2 novos)",
+    ".claude/skills/ (13 novas)",
+    ".planning/reports/ (session report + handoff)",
+    ".planning/threads/ (3 threads)",
+    "pgsa/HIGGSFIELD-MODELOS.md",
+    "pgsa/POLIR-VOZ-WHATSAPP.md",
+    "pgsa/TEMPLATE-PROMPT-IMAGEM.md (atualizado)",
+    "pgsa/VER-VIDEO-FRAMES.md",
+    "pgsa/bin/deep-filter.exe",
+    "pgsa/rnnoise-models/",
+    "pgsa/remotion-templates/",
+    "pgsa/referencias/prompts-ia/",
+    "Canal-gospel- conteudo/Abril-OpcaoE/finais/2026-04-23-coracao-cansado-30min-VIDEO-FINAL.mp4",
+    "Canal-gospel- conteudo/Abril-OpcaoE/finais/2026-04-23-coracao-cansado-UPLOAD-READY.md",
+    "Canal-gospel- conteudo/Abril-OpcaoE/masters/master.mp3",
+    "Canal-gospel- conteudo/Abril-OpcaoE/trilhas/trilha-30min.wav",
+    "Canal-gospel- conteudo/Abril-OpcaoE/vozes/voz-FINAL.mp3 + raw/"
+  ],
+  "next_action": "Na próxima sessão: /standup → checar analytics do upload se já subiu → decidir próximo conteúdo (Short? prep LIVE? batch gravações?). Considerar commit organizado em ~5 commits temáticos.",
+  "context_notes": "Sessão maratona 2026-04-23. Objetivo: entregar GSP-VIDEO-04 autônomo + escalar infra pra produção semanal sustentável. Weslley pausou pra ir trabalhar após confirmar assets entregues — não é blocker, é ponto natural de transição. Próxima sessão deve começar com standup fresco."
+}
