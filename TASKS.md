@@ -6,24 +6,21 @@
 
 ---
 
-## 🔥 HOJE (Qua 22/04)
+## 🔥 HOJE (Sex 24/04)
 
 - [x] OAuth YouTube MCP (2026-04-22 ✅)
-- [ ] Gerar conteúdo do dia do canal — confirmar QUAL (longform 30min? short? trilha 8h?)
+- [x] GSP-VIDEO-04 "Coração Cansado" 30min PUBLICADO (2026-04-24 ✅)
+- [ ] 🎯 **EM EXECUÇÃO**: Short #1 (versículo do dia) — 30s vertical, voz + Higgsfield
+- [ ] 21h: setup OBS + Restream + iniciar LIVE 12h (~1h30) — `pgsa/LIVE-247-SETUP.md` (PODE PULAR se short demorar)
+- [ ] Atualizar descrição VIDEO-04 no YouTube com link Hotmart (depois que produto estiver no ar)
 
-## ⚠️ ESSA SEMANA (22-28/04)
+## ⚠️ ESSA SEMANA (24-28/04)
 
-### Qui 23/04
+### Quando der (hoje OU sábado)
 - [ ] Criar produto Hotmart "30 Orações Pra Dormir em Paz" R$19,90 + link UTM (~1h)
-- [ ] Gravar Longform 30min #01 "Oração Pra Ansiedade Noturna" (~45min)
-  - Pipeline: `pgsa/PIPELINE-OPCAO-E.md`
-  - Roteiro: `pgsa/ROTEIRO-ORACAO-GUIADA-TEMPLATE.md#abril-ansiedade-noturna`
-  - Thumb: template 07 (mãos-luz) — `pgsa/THUMB-TEMPLATE-CICERO.md`
-  - Prompt Suno: dashboard → seção "PROMPTS SUNO DO DIA"
+- [ ] Revisar ebook Ansiedade linha-a-linha → upload Hotmart Dom 27/04
 
-### Sex 24/04
-- [ ] 19h: Short #1 (versículo do dia)
-- [ ] 21h: setup OBS + Restream + iniciar LIVE 12h (~1h30) — `pgsa/LIVE-247-SETUP.md`
+### Sex 24/04 — pendentes movidos pra cima ↑
 
 ### Sáb 25/04
 - [ ] Batch gravar 3-4 orações semana seguinte (~2h)

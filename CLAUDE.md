@@ -37,6 +37,30 @@ Estrutura `.planning/`:
 - `/frameworks` — AEI, BDA, PAS, Epiphany Bridge, Stack Slide, Big Domino, Soap Opera
 - `/instalar-skill` — guia pra adicionar skills novas ao projeto
 
+## 🎨 Prompts de imagem e vídeo (importado do ecossistema-personal em 2026-04-23)
+
+**Banco de prompts prontos** em [pgsa/referencias/prompts-ia/](pgsa/referencias/prompts-ia/README.md):
+- `brand-base.md` — fundação visual (sempre primeiro)
+- `youtube-thumbnail.md` / `instagram-post.md` / `instagram-story.md` / `ebook-cover.md`
+
+**Template mestre do fluxo 2-prompts**: [pgsa/TEMPLATE-PROMPT-IMAGEM.md](pgsa/TEMPLATE-PROMPT-IMAGEM.md) — regra: ChatGPT obrigatório + modelo 2 recomendado (Ideogram/MJ/Flux/nano-banana via árvore de decisão).
+
+**Skills novas (lazy-load — só quando invocadas)**:
+
+Imagem:
+- `image-prompt` — Nano Banana (Gemini)
+- `nano-banana-pro-prompts` — 10k prompts do Nano Banana Pro (sem references pesadas — versão enxuta)
+- `ai-image-prompts` — 10k prompts generalistas (qualquer modelo)
+- `prompt-master` — otimiza prompt pra QUALQUER AI tool
+
+Vídeo:
+- `kling-ai-prompt-generator` — Kling AI (via app.klingai.com ou Higgsfield)
+- `seedance2-skill` — Jimeng Seedance 2.0
+- `video-prompting-skill` — generalista (Sora, Veo 3, Ovi, Wan 2.2, LTX-2)
+- `awesome-ai-video-prompts` — biblioteca de vocabulário cinemático
+
+**Regra de consulta**: quando Weslley pedir imagem ou vídeo num roteiro novo, **primeiro** checar o banco em `pgsa/referencias/prompts-ia/`. Se não bater o formato, invocar a skill apropriada. Nunca escrever do zero sem consultar esses 2 recursos primeiro.
+
 📖 **Features oficiais Anthropic disponíveis**: ver `ANTHROPIC-OFFICIAL-REFERENCE.md`
 ⚡ **Regra crítica**: sempre paralelizar tool calls independentes (economia de tokens)
 

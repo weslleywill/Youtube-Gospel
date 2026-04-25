@@ -24,8 +24,13 @@
 | 10 | [PIPELINE-STORYTELLING-CONSTRUCAO.md](PIPELINE-STORYTELLING-CONSTRUCAO.md) ⭐ | Erro real → narrativa conectiva | `copywriting`, `create-viral-content`, `script` | Semanal (domingo) + reativo |
 | 11 | [PIPELINE-PROVA-SOCIAL-UGC.md](PIPELINE-PROVA-SOCIAL-UGC.md) ⭐ | DM cliente → carrossel prova social | `whatsapp-mcp`, `copywriting`, `carousel-writer-sms`, `marketing-psychology` | Quando tiver 3+ depoimentos |
 | 12 | [PIPELINE-PINTEREST-ORGANICO.md](PIPELINE-PINTEREST-ORGANICO.md) ⭐ | IG carrossel → 5 pins Pinterest | `repurpose`, `social-content`, `claude-seo`, `copywriting` | Semanal (sábado) |
+| 13 | [PIPELINE-STRATEGY-FINDER.md](PIPELINE-STRATEGY-FINDER.md) | Buscar estratégia vencedora autonomamente | `strategy-finder` + `strategist-autonomous` agent | Quando estratégia trava |
+| 14 | [PIPELINE-SHORTS-YOUTUBE.md](PIPELINE-SHORTS-YOUTUBE.md) ✅ NOVO | Short YouTube 9:16 do zero (Viral hook-first) | `viral`, `tiktok-trends` MCP, `hook-writer-sms`, `script`, `frameworks`, `image-prompt`, `kling-ai-prompt-generator`, `voice-enhancer`, `ffmpeg-usage`, `claude-youtube`, `claude-seo`, `repurpose` | 5×/semana |
+| 15 | [PIPELINE-SHORTS-FUNIL-INTEGRADO.md](PIPELINE-SHORTS-FUNIL-INTEGRADO.md) 🛌 DORMENTE | Short otimizado pra venda ebook | Pipeline 14 + `monetization-coordinator`, `hundred-million-offers`, `running-marketing-campaigns`, `email-sequence` | Quando ebook live + pipeline 14 calibrado |
 
 ⭐ = pipelines diferenciais da marca (não padrão de infoproduto BR genérico)
+✅ = adicionado nesta semana
+🛌 = dormente — não rodar sem aprovação explícita
 
 ## Como os pipelines se conectam
 

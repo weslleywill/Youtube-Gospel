@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "9959c468260fe921",
+    "type": "split",
+    "children": [
+      {
+        "id": "0957ec799c0166b8",
+        "type": "tabs",
+        "dimension": 69.39999999999999,
+        "children": [
+          {
+            "id": "391a6369cad671a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Canal-gospel- conteudo/Abril-OpcaoE/shorts/2026-04-24-acordado-short-roteiro.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-24-acordado-short-roteiro"
+            },
+            "group": "e891b56d69cf36dd"
+          }
+        ]
+      },
+      {
+        "id": "b465d3f93e0bee50",
+        "type": "tabs",
+        "dimension": 30.599999999999998,
+        "children": [
+          {
+            "id": "12cf9f046c112f91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Canal-gospel- conteudo/Abril-OpcaoE/shorts/2026-04-24-acordado-short-roteiro.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 2026-04-24-acordado-short-roteiro"
+            },
+            "group": "e891b56d69cf36dd"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e48fef4420773b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "14a76cf8d37861d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7383c87d8789f27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "e3d832e4d314269a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "c2177414fce930a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2d4b6d24b575f5e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaf37220605b7ed4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a7617935f431812",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_obsidian-setup/homepage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para homepage"
+            }
+          },
+          {
+            "id": "e71169773553da23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_obsidian-setup/homepage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para homepage"
+            }
+          },
+          {
+            "id": "41c462e7764e90f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "2882f00e777d6f37",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "fc3f0ec07b5f670a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_obsidian-setup/homepage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de homepage"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "391a6369cad671a3",
+  "lastOpenFiles": [
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/studio-server/web/favicon.png",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/studio-server/web/beep.wav",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/studio-server/web",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/esm/index.mjs",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/register-usage-event.js",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/index.js",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/register-usage-event.d.ts",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/is-network-error.js",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/is-network-error.d.ts",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/index.d.ts",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/licensing/dist/get-usage.js",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/selector-specificity/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/selector-specificity/LICENSE.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/selector-specificity/CHANGELOG.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/postcss-normalize-display-values/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/postcss-normalize-display-values/LICENSE.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/postcss-normalize-display-values/CHANGELOG.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/postcss-media-queries-aspect-ratio-number-values/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/postcss-media-queries-aspect-ratio-number-values/CHANGELOG.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/css-parser-algorithms/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/css-parser-algorithms/LICENSE.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/css-parser-algorithms/CHANGELOG.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/css-calc/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/css-calc/LICENSE.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@csstools/css-calc/CHANGELOG.md",
+    "pgsa/_tmp/v2-3h-zoom-final.png",
+    "pgsa/_tmp/v2-vinde-zoom-final.png",
+    "pgsa/_tmp/v2-contact-sheet-final.png",
+    "pgsa/_tmp/v2-vinde-zoom.png",
+    "pgsa/_tmp/v2-contact-sheet.png",
+    "pgsa/remotion-projects/short-acordado/node_modules/@types/eslint-scope/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@jridgewell/source-map/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@webassemblyjs/wasm-parser/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@esbuild/win32-x64/README.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/eslint-config-flat/node_modules/@typescript-eslint/eslint-plugin/docs/rules/type-annotation-spacing.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/eslint-config-flat/node_modules/@typescript-eslint/eslint-plugin/docs/rules/TEMPLATE.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/eslint-config-flat/node_modules/@typescript-eslint/eslint-plugin/docs/rules/space-infix-ops.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/eslint-config-flat/node_modules/@typescript-eslint/eslint-plugin/docs/rules/space-before-function-paren.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/eslint-config-flat/node_modules/@typescript-eslint/eslint-plugin/docs/rules/space-before-blocks.md",
+    "pgsa/remotion-projects/short-acordado/node_modules/@remotion/eslint-config-flat/node_modules/@typescript-eslint/eslint-plugin/docs/rules/semi.md",
+    "pgsa/_tmp/final-vinde-zoom.png",
+    "pgsa/_tmp/final-spectrogram.png",
+    "pgsa/_tmp/final-frame-end.png",
+    "pgsa/_tmp/final-frame-start.png",
+    "pgsa/_tmp/final-contact-sheet-novo.png"
+  ]
+}

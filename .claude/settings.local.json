@@ -146,10 +146,30 @@
       "Bash(whisper \"2026-04-22 - Oracao Ansiedade - Voz.ogg\" --model small --language Portuguese --output_format txt --output_dir .)",
       "Bash(ffmpeg -y -i \"vozes/2026-04-22 - Oracao Ansiedade - Voz.ogg\" -af \"aformat=channel_layouts=stereo,loudnorm=I=-14:TP=-1:LRA=7,adelay=2000|2000,apad=whole_dur=1800\" -t 1800 -c:a pcm_s16le -ar 48000 -ac 2 \"vozes/2026-04-22 - Oracao Ansiedade - Voz-1800s.wav\")",
       "Bash(ffmpeg -y -i \"vozes/2026-04-22 - Oracao Ansiedade - Voz-1800s.wav\" -i \"trilhas/2026-04-22 - Oracao Ansiedade 30min - A - EXTENDED-30min.wav\" -filter_complex \"[0:a]volume=1.3[v];[1:a]volume=0.55[t];[v][t]amix=inputs=2:duration=first:normalize=0[mix]\" -map \"[mix]\" -c:a pcm_s16le -ar 48000 -ac 2 \"finais/2026-04-22 - Oracao Ansiedade - AUDIO-FINAL.wav\")",
-      "Bash(ffprobe -v error -show_entries format=duration,size,bit_rate -show_entries stream=codec_name,sample_rate,channels -of default \"E:/Claude Code/#youtube/Canal-gospel- conteudo/Abril-OpcaoE/finais/2026-04-22 - Oracao Ansiedade - AUDIO-FINAL.wav\")"
+      "Bash(ffprobe -v error -show_entries format=duration,size,bit_rate -show_entries stream=codec_name,sample_rate,channels -of default \"E:/Claude Code/#youtube/Canal-gospel- conteudo/Abril-OpcaoE/finais/2026-04-22 - Oracao Ansiedade - AUDIO-FINAL.wav\")",
+      "Bash(mkdir -p 'E:/Claude Code/#youtube/.claude/skills/nano-banana-pro-prompts' 'E:/Claude Code/#youtube/.claude/skills/ai-image-prompts')",
+      "Bash(cp 'E:/Claude Code/ecossistema-personal-de-sucesso/04-imagens-ia/.claude/skills/__TRACKED_VAR__/__TRACKED_VAR__' 'E:/Claude Code/#youtube/.claude/skills/__TRACKED_VAR__/')",
+      "Bash(cp -r 'E:/Claude Code/ecossistema-personal-de-sucesso/04-imagens-ia/.claude/skills/__TRACKED_VAR__/scripts' 'E:/Claude Code/#youtube/.claude/skills/__TRACKED_VAR__/')"
     ]
   },
   "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // empty'); echo \"$f\" | grep -qi 'pgsa.roteiros' && py -3 '.claude/hooks/update-dashboard.py' \"$f\" 2>/dev/null || true",
+            "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // empty'); echo \"$f\" | grep -qiE 'Canal-gospel.+(trilhas|vozes)' && py -3 '.claude/hooks/rename-suno-adobe.py' \"$f\" 2>/dev/null || true",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
     "SessionStart": [
       {
         "hooks": [

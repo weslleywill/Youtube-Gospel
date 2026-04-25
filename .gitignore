@@ -51,3 +51,18 @@ _sandbox-skills-*/
 
 # Whisper/modelo
 *.pt
+
+# Binários e modelos AI grandes
+pgsa/bin/
+pgsa/rnnoise-models/
+
+# Temp do Claude (contact-sheets, frames extraídos, áudios intermediários)
+pgsa/_tmp/
+
+# Remotion build artifacts
+pgsa/remotion-projects/*/.remotion/
+pgsa/remotion-projects/*/.cache/
+pgsa/remotion-projects/*/out/
+
+# MCP backups antigos (manter só .mcp.json atual)
+.mcp.json.backup-*

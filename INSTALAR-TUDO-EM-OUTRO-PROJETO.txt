@@ -1,0 +1,109 @@
+=====================================================
+INSTALAR TODAS AS SKILLS, MCPs E DEPENDENCIAS
+EM QUALQUER OUTRO PROJETO DO ECOSSISTEMA
+=====================================================
+
+Cole este prompt inteiro no Claude Code dentro do projeto
+onde voce quer instalar. Ele faz tudo sozinho.
+
+
+-----------------------------------------------------
+PROMPT PARA COLAR:
+-----------------------------------------------------
+
+Instale todas as skills, dependencias e configure tudo neste projeto. Faca tudo sem perguntar, eu confio em voce.
+
+## 1. Skills do 02-estrategia-conteudo (copiar)
+Copie estas 7 skills de ../02-estrategia-conteudo/.claude/skills/ pra .claude/skills/:
+- ad-creative
+- paid-ads
+- social-content
+- email-sequence
+- copywriting
+- create-viral-content
+- marketing-psychology
+
+## 2. Skills do GitHub - Conteudo (clonar direto em .claude/skills/)
+git clone https://github.com/tenfoldmarc/repurpose-skill.git .claude/skills/repurpose
+git clone https://github.com/tenfoldmarc/script-skill.git .claude/skills/script
+git clone https://github.com/tenfoldmarc/viral-skill.git .claude/skills/viral
+git clone https://github.com/tenfoldmarc/copy-skill.git .claude/skills/copy
+git clone https://github.com/tenfoldmarc/spy-skill.git .claude/skills/spy
+
+## 3. Skills do GitHub - Ads (clonar direto em .claude/skills/)
+git clone https://github.com/AgriciDaniel/claude-ads.git .claude/skills/claude-ads
+Para competitive-ads-extractor: clone https://github.com/ComposioHQ/awesome-claude-skills.git num temp e copie SOMENTE a pasta competitive-ads-extractor pra .claude/skills/
+
+## 4. Skills do GitHub - Utilitarios (clonar direto em .claude/skills/)
+git clone https://github.com/SomeStay07/claude-memory-skill.git .claude/skills/memory
+git clone https://github.com/gyoung55/cowork-session-skills.git .claude/skills/cowork-session
+
+## 5. Dependencias do sistema (Windows)
+Verifique se ja estao instaladas antes de instalar:
+- Python 3.12: winget install Python.Python.3.12
+- yt-dlp: pip install yt-dlp
+- ffmpeg: winget install Gyan.FFmpeg
+- Whisper: pip install openai-whisper
+
+## 6. Verificacao
+Liste .claude/skills/ e confirme que tem 16 pastas:
+ad-creative, paid-ads, social-content, email-sequence, copywriting,
+create-viral-content, marketing-psychology, script, repurpose, viral,
+copy, spy, claude-ads, competitive-ads-extractor, memory, cowork-session
+
+Teste: yt-dlp --version && python -c "import whisper; print('OK')" && ffmpeg -version
+
+
+-----------------------------------------------------
+O QUE CADA SKILL FAZ (referencia rapida)
+-----------------------------------------------------
+
+MARKETING (do 02-estrategia):
+ 1. ad-creative          - Gera variacoes de anuncios em escala
+ 2. paid-ads             - Estrategia de campanha Meta/TikTok/Google
+ 3. social-content       - Distribuicao multi-canal + repurposing
+ 4. email-sequence       - Sequencias de email nurture/vendas
+ 5. copywriting          - Copy de paginas e anuncios
+ 6. create-viral-content - Otimiza hooks e engajamento
+ 7. marketing-psychology - Gatilhos psicologicos em ads
+
+CONTEUDO (tenfoldmarc - GitHub):
+ 8. script    - Roteiro de video na SUA voz
+ 9. repurpose - Cola URL de Reel, transcreve, reescreve na sua voz
+10. viral     - 10 ideias de video viral com pesquisa
+11. copy      - Copywriting com 100+ frameworks classicos
+12. spy       - Espiona concorrentes no IG, acha virais, extrai hooks
+
+ANUNCIOS (GitHub):
+13. claude-ads              - 17 sub-skills (ads-meta, ads-tiktok, ads-google, ads-audit, ads-score, etc)
+14. competitive-ads-extractor - Scrape e analise de ads dos concorrentes
+
+UTILITARIOS (GitHub):
+15. memory         - /memory update, prune, reflect, status
+16. cowork-session - /standup (inicio) + /conclude (fim de sessao)
+
+
+-----------------------------------------------------
+MCPs ATIVOS
+-----------------------------------------------------
+
+Nenhum MCP especifico instalado por enquanto.
+Futuramente: Meta Ads API, TikTok Ads API (quando automatizar)
+
+
+-----------------------------------------------------
+NOTAS IMPORTANTES
+-----------------------------------------------------
+
+- Skills do tenfoldmarc que usam scraping (spy, script, repurpose)
+  precisam de conta no Apify (gratuita com creditos limitados)
+
+- Python Scripts pode nao estar no PATH do Windows.
+  Se pip/yt-dlp nao funcionar, usar caminho completo:
+  C:\Users\wesll\AppData\Local\Programs\Python\Python312\python.exe -m pip install ...
+
+- Se o projeto nao tem a pasta 02-estrategia-conteudo como irmao,
+  clone as 7 skills do marketing direto do GitHub:
+  git clone https://github.com/coreyhaines31/marketingskills.git num temp
+  e copie as pastas: ad-creative, paid-ads, social-content,
+  email-sequence, copywriting, create-viral-content, marketing-psychology

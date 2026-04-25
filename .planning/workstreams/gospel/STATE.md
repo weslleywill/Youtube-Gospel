@@ -4,11 +4,11 @@
 
 ---
 
-## 📅 2026-04-23
+## 📅 2026-04-24
 
 **Fase atual**: 00-fundacao
-**Dias corridos nessa fase**: 2 de 7 (começou 22/04)
-**Progresso de fase**: ~15% (canal existe, pipeline validado, 1º vídeo montado)
+**Dias corridos nessa fase**: 3 de 7 (começou 22/04)
+**Progresso de fase**: ~30% (canal vivo, pipeline validado, **1º longform PUBLICADO**)
 
 ---
 
@@ -18,22 +18,27 @@
 - Opção E Híbrida aprovada (pivot de H27)
 - 14 arquivos operacionais criados em `pgsa/`
 - Dashboard Obsidian montado
+- Dashboard auto-update hook instalado (PostToolUse → `.claude/hooks/update-dashboard.py`) — todo roteiro novo em `pgsa/roteiros/` adiciona linha automaticamente
 - OAuth YouTube Studio MCP funcional
 - Pipeline Suno → master ffmpeg validado (ver [pgsa/SUNO-CONFIGURACOES-PADRAO.md](../../../pgsa/SUNO-CONFIGURACOES-PADRAO.md))
 - Higgsfield image-to-video validado (Cícero-style)
 - 1º longform 30min Ansiedade: voz + trilha + vídeo MP4 montado
+- Roteiro #02 Coração Cansado 30min pronto: `pgsa/roteiros/2026-04-23-oracao-coracao-cansado-30min.md` — Suno por campos + prompt imagem 6-component + Higgsfield + metadata completo
 
 ---
 
+## ✅ Entregue na fase atual
+
+- [x] GSP-VIDEO-04 "Coração Cansado" 30min PUBLICADO (24/04)
+
 ## 🔴 Pendente na fase atual
 
-- [ ] Upload GSP-VIDEO-01 no YouTube (22h hoje)
-- [ ] Criar GSP-HOTMART-01 (produto Hotmart + link UTM)
+- [ ] 🎯 **HOJE**: GSP-SHORT-01 (Versículo do dia Sex 24/04 19h)
+- [ ] **HOJE 21h**: Setup GSP-LIVE-01 (OBS + Restream) — pode pular se Short atrasar
+- [ ] Criar GSP-HOTMART-01 (produto Hotmart + link UTM) — hoje OU sábado
 - [ ] Finalizar GSP-EBOOK-01 (revisar draft + PDF export)
 - [ ] Gravar GSP-VIDEO-02 (Longform 1h Provisão Dom 26/04)
 - [ ] Produzir GSP-VIDEO-03 (8h OBRIG Provisão Seg 27/04 06h)
-- [ ] Gravar GSP-SHORT-01 (Versículo do dia Sex 24/04 19h)
-- [ ] Setup GSP-LIVE-01 (OBS + Restream Sex 24/04 21h)
 
 ---
 

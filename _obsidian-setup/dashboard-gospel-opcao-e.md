@@ -8,11 +8,67 @@
 
 ## 🧠 GSD — VISÃO RÁPIDA (espelha [STATE.md](../.planning/STATE.md))
 
-> [!tip] Onde estou HOJE (atualizado 2026-04-23)
+> [!tip] Onde estou HOJE (atualizado 2026-04-24)
 > **Workstream ativo**: GOSPEL  
-> **Fase atual**: 00-fundacao (dias 1-7 — começou 22/04)  
-> **Próximo gate**: 28/04 (em 5 dias) → 3 longforms + ebook live + 0 strikes  
-> **Próxima ação**: Subir Longform 30min Ansiedade (22h hoje)
+> **Fase atual**: 00-fundacao (dia 3 de 7)  
+> **Próximo gate**: 28/04 (em 4 dias) → 3 longforms + ebook live + 0 strikes  
+> **Próxima ação**: 🎯 Short #1 Mateus 11:28 EM PRODUÇÃO (Pipeline 14)  
+> **Última conquista**: ✅ GSP-VIDEO-04 "Coração Cansado" 30min PUBLICADO 24/04
+
+## 🚀 Pipelines novos (24/04)
+
+- ✅ [PIPELINE-SHORTS-YOUTUBE](../pipelines/PIPELINE-SHORTS-YOUTUBE.md) — produção de Shorts 9:16 do zero (Viral hook-first, ~1h30, 12 skills)
+- 🛌 [PIPELINE-SHORTS-FUNIL-INTEGRADO](../pipelines/PIPELINE-SHORTS-FUNIL-INTEGRADO.md) — DORMENTE (ativar quando ebook live)
+- 🎬 [SHORTS-IDEAS-POOL](../pgsa/SHORTS-IDEAS-POOL.md) — pool de research + 10 ideias prontas (válido até 24/05)
+
+---
+
+## 🎬 SHORT #1 EM PRODUÇÃO (Sex 19h) — TRACKER RÁPIDO
+
+> [!example]+ Clica pra abrir o tracker completo (Outline lateral mostra todas seções do arquivo)
+> 📂 **[[2026-04-24-acordado-short-roteiro|🎬 Roteiro Short #1 — Tracker + Prompts + Suno + Pipeline completo]]**
+>
+> **Tema**: "Te disseram que cristão dorme em paz" (Mt 11:28)
+> **Duração**: 20s · 9:16 vertical · AEI Engajamento
+> **Validações**: 6 skills passaram (detect-ai 13/100 ✅ · brand-review 88 ✅ · copy 78 ✅ · marketing-psychology 75 ✅ · create-viral-content 72 ✅ · claude-youtube ✅)
+>
+> ### Status fases (marca no arquivo):
+> - 🟢 **Fase 1** — Você gera 4 assets EM PARALELO (~10min) ← **AGORA**
+>   - [x] Salvar Imagem 2 escolhida ✅
+>   - [x] Salvar Imagem 1 backup épica ✅
+>   - [ ] Gerar trilha Suno (8 campos prontos)
+>   - [ ] Gravar voz (~20s, 51 palavras)
+> - 🟡 **Fase 2** — Animar Higgsfield Kling 3.0 (~5min, depende imagem)
+> - 🔵 **Fase 3** — Claude processa (voice-enhancer + ffmpeg mix + 8 cards overlay) (~10min)
+> - 🟣 **Fase 4** — Upload via youtube-studio MCP + pinned comment (~5min)
+> - 📊 **Gate +24h** — 5 métricas (views, retention, loop, CTR pro longform, engagement)
+>
+> **Tempo total estimado**: ~25-35min
+>
+> ### Atalhos clicáveis (wikilinks Obsidian — funcionam ✅):
+> - 🎙️ [[2026-04-24-acordado-short-roteiro#🎙️ ROTEIRO VOZ v3.1 — 20s + LOOP-BACK (Weslley grava + voice-enhancer)|Roteiro voz pra gravar]]
+> - 🖼️ [[2026-04-24-acordado-short-roteiro#🖼️ PROMPTS IMAGEM (cena base — SEM TEXTO embutido — texto vai como overlay pós)|Prompts imagem (ChatGPT + Nano Banana Pro)]]
+> - 🎬 [[2026-04-24-acordado-short-roteiro#🎬 PROMPTS HIGGSFIELD VÍDEO (animar imagem → loop 10s 9:16)|Prompts Higgsfield (Kling 3.0 + Hailuo)]]
+> - 🎵 [[2026-04-24-acordado-short-roteiro#🎵 TRILHA SUNO — Prompt dedicado pro Short (subtle, entra seg 4)|Prompt Suno completo (8 campos)]]
+> - 📋 [[2026-04-24-acordado-short-roteiro#📋 PADRÃO COMPLETO DE NOMES — TODOS OS ARQUIVOS DO SHORT #1|Tabela mestre de nomes de arquivo]]
+
+---
+
+### 📑 ÍNDICE LATERAL OBSIDIAN — Como ativar
+
+> [!tip]+ Pra ver TODAS as seções do Short #1 no menu lateral:
+> 1. **Abre o arquivo do roteiro** (clica no link acima 📂)
+> 2. **Atalho `Ctrl + Shift + O`** (Windows) ou **`Cmd + Shift + O`** (Mac) → abre o painel **Outline** lateral direito
+> 3. Outline mostra todos os headings do arquivo atual (🚦 Tracker · 🎙️ Roteiro voz · 🖼️ Prompts imagem · 🎬 Higgsfield · 🎵 Suno · 🎚️ Mix · 📋 Tabela mestre · ✅ Checklist)
+> 4. Clica em qualquer heading do Outline → pula direto pra seção
+>
+> **Alternativa (sempre visível)**: bookmark este dashboard via `Ctrl+P` → "Bookmark current note" → vai pro painel **Bookmarks** sempre acessível
+>
+> **Embed direto do tracker abaixo** (pra ter SEMPRE visível no dashboard):
+
+### 📌 EMBED do Tracker do Short #1 (atualiza em tempo real conforme você marca)
+
+![[2026-04-24-acordado-short-roteiro#🚦 TRACKER DE EXECUÇÃO — Marca `[x]` conforme faz]]
 
 📚 **Arquivos GSD master**:
 - [PROJECT.md](../.planning/PROJECT.md) — visão macro
@@ -63,9 +119,10 @@
 ### Essa semana (22-28 Abr)
 | Dia | Hora | Formato | Tema | Status | Link roteiro | Link thumb |
 |---|---|---|---|---|---|---|
-| Qui 23/04 | 20h | 30min Oração Ansiedade | Ansiedade | ⚠️ A gravar | [Roteiro](../pgsa/ROTEIRO-ORACAO-GUIADA-TEMPLATE.md#abril-ansiedade-noturna) | [Thumb mãos-luz](../pgsa/THUMB-TEMPLATE-CICERO.md#template-07) |
+| Qui 23/04 | 20h | 30min Oração Ansiedade | Ansiedade | ✅ Publicado | [Roteiro](../pgsa/ROTEIRO-ORACAO-GUIADA-TEMPLATE.md#abril-ansiedade-noturna) | [Thumb mãos-luz](../pgsa/THUMB-TEMPLATE-CICERO.md#template-07) |
+| Qui 23/04 | 22h | 30min Coração Cansado | Cansaço/Dor | ⚠️ A gravar | [Roteiro](../pgsa/roteiros/2026-04-23-oracao-coracao-cansado-30min.md) | ELE OUVE — mãos-luz |
 | Sex 24/04 | 21h | 🔴 LIVE 12h inicia | — | ⚠️ Setup | [Setup](../pgsa/LIVE-247-SETUP.md) | — |
-| Sex 24/04 | 19h | Short #1 | Versículo | ⚠️ — | — | — |
+| Sex 24/04 | 19h | Short #1 (20s) | Mt 11:28 / "acordado" | 🟢 EM PRODUÇÃO | [Roteiro+Tracker](../Canal-gospel-%20conteudo/Abril-OpcaoE/shorts/2026-04-24-acordado-short-roteiro.md) | Imagem 2 escolhida ✅ |
 | Dom 26/04 | 22h | 1h Provisão Salmo 23 | Provisão | ⚠️ A gravar | [Roteiro](../pgsa/ROTEIRO-ORACAO-GUIADA-TEMPLATE.md#maio-provisao) | [Thumb cordeiro](../pgsa/THUMB-TEMPLATE-CICERO.md#template-06) |
 | Seg 27/04 | 06h | 🔒 8h Obrig Provisão | Provisão | ⚠️ A gravar | — | — |
 
@@ -87,6 +144,18 @@ very gentle and sparse piano with soft pad background,
 meditative nighttime prayer atmosphere, 
 leaves space for human voice on top (background layer), 
 no vocals, no drums, 
+duration 3 min (will be extended to 25 min via crossfade)
+```
+
+### 🎵 Prompt Suno — Sofrendo em Silêncio (2º vídeo hoje — copiar abaixo)
+```
+Intimate Brazilian gospel piano for prayer about hidden suffering,
+very gentle sparse piano with soft strings pad,
+48 BPM, key of E minor,
+meditative late-night atmosphere of comfort and divine presence,
+emotional but peaceful — not sad, not triumphant — just still,
+leaves space for human voice on top,
+no vocals, no drums, no guitar,
 duration 3 min (will be extended to 25 min via crossfade)
 ```
 

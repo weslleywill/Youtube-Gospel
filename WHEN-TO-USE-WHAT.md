@@ -57,6 +57,8 @@
 | "me dá standup / encerra sessão" | `cowork-session` (`/standup`, `/conclude`) | — | — |
 | "atualiza minha memória" | `memory` (`/memory update`) | — |
 | "fluxograma / diagrama / mapa visual / mindmap / gantt / timeline" | `mermaid` | — | Desenho livre → use Excalidraw |
+| "fazer Short YouTube" / "produzir Short" / "Short do dia" | `viral` + `tiktok-trends` MCP + `hook-writer-sms` + `script` + `frameworks` + `image-prompt` + `kling-ai-prompt-generator` + `voice-enhancer` + `ffmpeg-usage` + `claude-youtube` + `claude-seo` | **PIPELINE-SHORTS-YOUTUBE** ✅ | Recorte de longform → use PIPELINE-REAPROVEITAMENTO |
+| "Short pra vender ebook" / "Short conversão Hotmart" | Pipeline 14 + `monetization-coordinator` + `hundred-million-offers` + `running-marketing-campaigns` + `email-sequence` | **PIPELINE-SHORTS-FUNIL-INTEGRADO** 🛌 DORMENTE | NÃO rodar sem ebook live + Pipeline 14 calibrado + aprovação Weslley |
 | "visualiza esse funil / pipeline / fluxo" | `mermaid` (flowchart) | — | — |
 | "roadmap mensal visual / gantt" | `mermaid` (gantt) | — | — |
 | "distribuição AEI em pie chart" | `mermaid` (pie) | — | — | — |
